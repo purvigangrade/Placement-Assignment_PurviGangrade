@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,4 +57,64 @@
     </script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call, apply and Bind</title>
+</head>
+
+<body>
+    <!-- <h1>Call, apply and Bind</h1> -->
+    <div id="parent">
+        <button id="button">Click me</button>
+    </div>
+
+    <script>
+
+        const parent = document.getElementById('parent');
+        const button = document.getElementById('button');
+
+        parent.addEventListener('click', function () {
+            console.log('Parent clicked');
+        },true);
+
+        button.addEventListener('click', function () {
+            console.log('Button clicked');
+        },true);
+        // const student = {
+        //     firstName: 'Harsh',
+        //     lastName: 'Varshney',
+        //     age: 24
+        // }
+
+        // const teacher = {
+        //     firstName: 'Mahesh',
+        //     lastName: 'Sharma',
+        //     age: 35
+        // }
+
+        // function getEmail (){
+        //     return `${this.firstName}.${this.lastName}@gmail.com`
+        // }
+
+        // function chooseSub (sub1, sub2){
+        //     return [sub1, sub2]
+        // }
+
+        // // console.log(getEmail.call(student));
+        // // console.log(chooseSub.apply(student, ['Maths', 'english']))
+
+        // const anotherFun = getEmail.bind(student);
+        // console.log(anotherFun());
+
+
+    </script>
+</body>
+
+>>>>>>> 066d2f545c07f0ba48a6b228adf350267defd274
 </html>

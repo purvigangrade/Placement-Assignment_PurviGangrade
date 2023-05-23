@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
 *{
@@ -108,4 +109,116 @@
     column-gap: 31px;
     align-content: baseline;
     margin-left: 210px;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90vw;
+    margin-top: 25px;
+    margin-inline: 35px;
+}
+
+.upperRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.verticalRow{
+    display: flex;
+    flex-direction: column;
+   gap: 32px;
+}
+
+.periodicTable{
+    position: absolute;
+    top: 70px;
+    left: 117px;
+    width: 85vw;
+    height: 50vh;
+}
+
+.element{
+    border: 1px solid black;
+    width: 32px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorBoxes{
+    display: flex;
+}
+
+.pinkColor{
+    background-color: #ffab91
+}
+
+.pinkBox{
+    margin-top: 9px;
+    width: 120px;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 8px;
+    align-content: baseline;
+}
+
+.blueBox{
+    margin-top: 107px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    row-gap: 8px;
+    width: 47vw;
+    align-content: baseline;
+}
+
+.blueColor{
+    background-color: rgb(47, 170, 241);
+}
+
+.yellowColor{
+    background-color: rgb(240, 240, 120);
+}
+
+.yellowBox{
+    margin-top: 9px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 8px;
+    width: 25vw;
+    justify-content: space-between;
+    column-gap: 37px;
+    align-content: baseline;
+}
+
+.bottomRow{
+    margin-top: 23px;
+}
+
+.greenColor{
+    background-color: rgb(169, 247, 169);
+}
+
+.greenBox{
+    margin-top: 9px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    row-gap: 8px;
+    width: 500px;
+    justify-content: space-between;
+    column-gap: 31px;
+    align-content: baseline;
+    margin-left: 210px;
+>>>>>>> 066d2f545c07f0ba48a6b228adf350267defd274
 }
