@@ -1,0 +1,570 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #233c7b;
+}
+
+.hamburger, .search-icon{
+    display: none;
+}
+
+.nav-bar{
+display: flex;
+flex-direction: column;
+gap: 30px;
+padding-inline: 40px;
+margin-top: 20px;
+}
+
+.Logoimg{
+    width: 150px;
+    cursor: pointer;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputField{
+    display: flex;
+    width: 50vw;
+    border: 1px solid #233c7b;
+    border-radius: 8px;
+    padding: 11px;
+}
+
+.inputField i {
+    position: relative;
+    top: 5px;
+    left: 11px;
+    width: 45px;
+}
+
+.secondary-button{
+    display: inline-block;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2;
+    background-color:  #233c7b;
+    color: white;
+}
+
+.primary-button{
+    display: inline-block;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2;
+    background-color: white ;
+    color: #233c7b;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.drop-down{
+    position: relative;
+    top: 5px;
+}
+
+.mid-section{
+    width: 100vw;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.hardwork-heading{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.small-line{
+    border: 2px solid #ea8e30;
+    width: 110px;
+    margin: auto;
+}
+
+.hardwork-cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 5px;
+}
+
+.h-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-cards img{
+    width: 160px;
+}
+
+.h-cards h1{
+    font-size: 36px;
+    text-align: center;
+    line-height: 40px;
+    margin-block: 20px;
+}
+
+.h-cards p{
+    font-size: 30px;
+    color: black;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.achiver-section{
+    background-color: #e0e0e0;
+    padding: 80px 0px;
+}
+
+.achiver-section h1{
+   font-size: 48px;
+   text-align: center;
+}
+
+.company-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.company-image img{
+    width: 192px;
+}
+
+.halloffame h1{
+       font-size: 48px;
+   text-align: center;
+}
+
+.halloffame{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-card-div{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+.card{
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 21px 5px rgba(0,0,0,0.08);
+}
+
+.f-card img{
+width: 140px;
+border-radius: 100px;
+}
+
+.f-card p{
+    color: #777373;
+    text-align: center;
+}
+
+.f-card h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.f-card i {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.view{
+    text-align: center;
+    margin-block: 50px;
+    font-weight: bold;
+}
+.program-h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.program-p{
+    color: #777373;
+    margin: 20px 0px;
+    text-align: center;
+}
+.main-program-card{
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+    gap: 35px;
+    margin-top: 50px;
+}
+.program-card{
+    width: 384px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 21px 5px rgba(0,0,0,0.08);
+}
+
+.program-card img{
+    width: 100%;
+}
+
+.program-card h1{
+font-size: 16px;
+line-height: 28px;
+font-weight: 600;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom p{
+    position: relative;
+    color: #777373;
+
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1px;
+    font-size: 15px;
+
+}
+
+.price  h4{
+    color: black;
+}
+
+.price button{
+    padding: 2px 5px;
+    background-color: #a2cafa;
+    border: 1px solid #3b82f6;
+    border-radius: 3px;
+}
+
+.community-bottom{
+    margin-top: 22px;
+}
+
+.hackathon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.hackathon h1{
+    font-size: 38px;
+}
+
+.hackathon-company-list{
+    width: 60vw;
+    margin: auto;
+    margin-top: 80px;
+
+}
+.hackathon-company-list img{
+width: 150px;
+margin-left: 18px;
+}
+
+.Our-Products{
+    margin-top: 50px;
+}
+
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.p-cards{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.p-cards img{
+    height: 160px;
+}
+.p-cards h4{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.p-cards p{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 100;
+    color: #6e6969;
+    text-align: center;
+}
+
+.partnered-institution h2{
+    font-size: 36px;
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.institution-img{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.institution-img img{
+    width: 160px;
+}
+
+
+
+.footer-section{
+    display: flex;
+    background-color: #233c7b;
+    justify-content: space-around;
+}
+
+.address{
+    display: flex;
+    width: 30vw;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.address img{
+    width: 20px;
+
+}
+
+.address p{
+    color: white;
+}
+
+.email p{
+    color: white;
+}
+
+.iso p{
+    color: white;
+}
+
+.logo-div{
+    padding: 80px 16px 24px;
+}
+
+.social-media{
+    color: white;
+    margin-top: 15px;
+}
+
+.horizontal-line{
+    border: 1px solid #ea8e30;
+    width: 350px;
+}
+
+.email{
+    display: flex;
+    width: 30vw;
+    gap: 50px;
+}
+
+.iso{
+    margin-top: 50px;
+}
+
+.iso img{
+    width: 60px;
+}
+
+.divmain{
+    display: flex;
+    gap: 20px;
+}
+
+.divmain div ul li{
+    color: white;
+    list-style: none;
+}
+
+.Company h2{
+    color: white;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1200px)  {
+  .nav-bar{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  .nav-ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+    height: 45vh;
+    display: none;
+  }
+
+  .buttons, .inputField{
+    display: none;
+  }
+
+  .hamburger, .search-icon{
+    display: inline;
+    padding-top: 10px;
+  }
+
+  .topBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    flex-direction: column;
+  }
+  .reponsive-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 85px;
+  }
+
+  .product-cards{
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 1000px)  {
+    /* .top-bar{
+        display: hidden;
+    } */
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .hardwork-cards{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hardwork-heading{
+        font-size: 2rem;
+    }
+
+    .h-cards p{
+        font-size: 25px;
+    }
+
+    .h-cards h1{
+        font-size: 28px;
+    }
+
+    .main-card-div{
+        flex-wrap: wrap;
+row-gap: 50px;
+    }
+
+    .main-program-card{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 500px){
+.mid-section {
+
+    margin-top: 65px;
+}
+
+.achiver-section h1 {
+    font-size: 35px;
+}
+
+.company-image{
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.company-image img {
+    width: 152px;
+}
+
+.halloffame {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.halloffame h1 {
+    font-size: 35px;
+}
+
+.program-h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.hackathon h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.hackathon{
+    gap: 20px;
+}
+
+.h-cards p {
+    font-size: 15px;
+}
+
+.footer-section {
+    display: flex;
+flex-direction: column;
+}
+}
