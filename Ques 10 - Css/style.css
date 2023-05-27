@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    background-color: rgb(129, 150, 182);
+    width: 20vw;
+    height: 15vh;
+}
+
+.navlink {
+    background-color: rgb(155, 146, 146);
+    width: 80vw;
+    height: 15vh;
+}
+
+.main-section {
+    background-color: rgb(102, 99, 99);
+    margin-top: 20px;
+    height: 60vh;
+}
+
+.cards-section {
+    display: flex;
+    gap: 20PX;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: rgb(174, 195, 226);
+    width: 35vw;
+    height: 30vh;
+}
+
+.footer {
+    background-color: rgb(194, 178, 178);
+    margin-top: 20px;
+    height: 45vh;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .logo,
+    .navlink {
+        height: 10vh;
+    }
+
+    .main-section {
+        margin-top: 15px;
+        height: 25vh;
+    }
+
+    .card {
+        margin-top: 15px;
+        height: 30vh;
+    }
+
+    .footer {
+        margin-top: 15px;
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .logo,
+    .navlink {
+        height: 10vh;
+    }
+
+    .main-section {
+        margin-top: 10px;
+        height: 20vh;
+    }
+
+    .cards-section {
+        flex-wrap: wrap;
+        gap: 3px;
+        margin-top: 8px;
+    }
+
+    .card {
+
+        height: 12vh;
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    .footer {
+        margin-top: 10px;
+        height: 20vh;
+    }
+}
