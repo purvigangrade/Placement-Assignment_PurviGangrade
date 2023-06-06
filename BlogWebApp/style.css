@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244, 221, 248);
+}
+
+.Heading{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(177, 61, 231);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.blog-heading{
+    text-align: center;
+    padding-top: 50px;
+     font-family: 'Roboto', sans-serif;
+     color: rgb(119, 24, 143);
+     font-size: 36px;
+}
+
+#add-blog-form{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+#add-blog-form input{
+    padding: 10px;
+    border: 1px solid rgb(152, 9, 196);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+#add-blog-form textarea{
+    padding: 10px;
+    border: 1px solid rgb(152, 9, 196);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+#add-blog-form button{
+    padding: 10px 28px;
+    border: 1px solid rgb(152, 9, 196);
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgb(237, 147, 255);
+    color: purple
+}
+
+.list{
+    text-align: center;
+    padding-top: 50px;
+     font-family: 'Roboto', sans-serif;
+     color: rgb(119, 24, 143);
+     font-size: 36px;
+}
+
+#blog-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .blog-item {
+    margin-bottom: 10px;
+  }
